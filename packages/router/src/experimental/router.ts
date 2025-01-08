@@ -410,6 +410,7 @@ export interface EXPERIMENTAL_RouteRecordNormalized extends NEW_MatcherRecord {
    * Arbitrary data attached to the record.
    */
   meta: RouteMeta
+  parent?: EXPERIMENTAL_RouteRecordNormalized
 }
 
 function normalizeRouteRecord(
